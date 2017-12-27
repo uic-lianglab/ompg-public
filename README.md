@@ -6,7 +6,8 @@ If using this source code, please cite the following:
 * Tang, Ke, Samuel WK Wong, Jun S. Liu, Jinfeng Zhang, and Jie Liang. "Conformational sampling and structure prediction of multiple interacting loops in soluble and β-barrel membrane proteins using multi-loop distance-guided chain-growth Monte Carlo method." Bioinformatics 31, no. 16 (2015): 2646-2652.
 * Tang, Ke, Jinfeng Zhang, and Jie Liang. "Fast protein loop sampling and structure prediction using distance-guided sequential chain-growth Monte Carlo method." PLoS computational biology 10, no. 4 (2014): e1003539.
 
-This code is available from the following mirrors:
+This code is available from the following git repositories:
+
 * [github](https://github.com/uic-lianglab/ompg-public)
 * [bitbucket](https://bitbucket.org/aperezrathke/ompg-public)
 
@@ -23,7 +24,7 @@ In Unix, navigate to the *scripts* folder and run
 followed by
 
 ```
-./cmake_buid.sh.
+./cmake_build.sh.
 ```
 
 The mDisgro executable binary will be located in the CMakeBuild folder.
@@ -92,7 +93,7 @@ For (streaming) affinity propagation clustering:
 * Zhang, Xiangliang, Cyril Furtlehner, and Michele Sebag. "Data streaming with affinity propagation." Machine learning and knowledge discovery in databases (2008): 628-643.
 * Zhang, Xiangliang, Cyril Furtlehner, Cecile Germain-Renaud, and Michele Sebag. "Data stream clustering with affinity propagation." IEEE Transactions on Knowledge and Data Engineering 26, no. 7 (2014): 1644-1656.
 
-For protonation state assignment with PROPKA
+For protonation state assignment with PROPKA:
 
 * Sondergaard, Chresten R., Mats HM Olsson, Michal Rostkowski, and Jan H. Jensen. "Improved Treatment of Ligands and Coupling Effects in Empirical Calculation and Rationalization of pKa Values." Journal of Chemical Theory and Computation 7, no. 7 (2011): 2284-2295.
 * Olsson, Mats HM, Chresten R. Sondergaard, Michal Rostkowski, and Jan H. Jensen. "PROPKA3: consistent treatment of internal and surface residues in empirical pKa predictions." Journal of Chemical Theory and Computation 7, no. 2 (2011): 525-537.
