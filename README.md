@@ -49,7 +49,7 @@ All scripts assume the compiled mDisgro executable binary has been copied to the
 
 Prior to multi-loop modeling, all single loops must have their fragment libraries generated using mDisgro.
 
-For scripts demonstrating fragment library generation as used in JACS paper, please see `scripts/a_frag_lib`.
+For scripts demonstrating fragment library generation as used in JACS paper, please see [scripts/a_frag_lib](scripts/a_frag_lib).
 
 All scripts are prefixed in the order in which they should be run.
 
@@ -57,7 +57,7 @@ All scripts are prefixed in the order in which they should be run.
 
 Once fragment libraries are available, all loops structures may be simultaneously modeled using mDisgro.
 
-For scripts demonstrating full multi-loop modeling, please see `scripts/b_multi_loop`.
+For scripts demonstrating full multi-loop modeling, please see [scripts/b_multi_loop](scripts/b_multi_loop).
 
 ### Multi-loop clustering
 
@@ -65,11 +65,11 @@ To approximate uniform coverage over the geometric space of loops, mDisgro sampl
 
 This is currently done by clustering the multi-loop samples using a streaming affinity propagation algorithm.
 
-The source code for the clustering utility is available [here](https://bitbucket.org/aperezrathke/scoby).
+The source code for the clustering utility (*SCOBY*) is available [here](https://bitbucket.org/aperezrathke/scoby).
 
-For scripts demonstrating clustering, please see `scripts/c_cluster`.
+For scripts demonstrating clustering, please see [scripts/c_cluster](scripts/c_cluster).
 
-All scripts assume the SCOBY binary is located in the base project folder.
+All scripts assume the *SCOBY* binary is located in the base project folder.
 
 ### Relaxation and topological gating state assignment
 
@@ -83,7 +83,7 @@ To simulate a physical pH environment, the following steps are performed:
 
 Note that we have modified NAMD to facilitate capturing the energy state of each residue.
 
-For scripts demonstrating relaxation and topological gating state assignment, please refer to `scripts/d_relax`.
+For scripts demonstrating relaxation and topological gating state assignment, please refer to [scripts/d_relax](scripts/d_relax).
 
 ## Additional references
 
