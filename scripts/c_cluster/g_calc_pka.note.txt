@@ -1,0 +1,2 @@
+pKa calculations were done in multiloop step prior to clustering.
+Add script here if pKa calculations still needed.

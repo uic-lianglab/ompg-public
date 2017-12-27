@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC1206E4-2841-47F5-A80F-9380B4854B4C}</ProjectGuid>
+    <RootNamespace>mDisgro</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\atom.h" />
+    <ClInclude Include="..\build.h" />
+    <ClInclude Include="..\cal_energy.h" />
+    <ClInclude Include="..\collision_grid.h" />
+    <ClInclude Include="..\collision_grid_prot.h" />
+    <ClInclude Include="..\collision_frontend.h" />
+    <ClInclude Include="..\collision_logger.h" />
+    <ClInclude Include="..\dirent_win.h" />
+    <ClInclude Include="..\dirent_xplat.h" />
+    <ClInclude Include="..\energy_stats.h" />
+    <ClInclude Include="..\energy_stats_writer.h" />
+    <ClInclude Include="..\membrane.h" />
+    <ClInclude Include="..\misc_structs.h" />
+    <ClInclude Include="..\pdb_reader.h" />
+    <ClInclude Include="..\point.h" />
+    <ClInclude Include="..\potential_frontend_loodis.h" />
+    <ClInclude Include="..\config\ConfigFile.h" />
+    <ClInclude Include="..\frag_lib_manager.h" />
+    <ClInclude Include="..\loop_closure_c\sturm.h" />
+    <ClInclude Include="..\loop_closure_c\tripep_closure.h" />
+    <ClInclude Include="..\matrix.h" />
+    <ClInclude Include="..\mutation_manager.h" />
+    <ClInclude Include="..\params.h" />
+    <ClInclude Include="..\potential.h" />
+    <ClInclude Include="..\reprst.h" />
+    <ClInclude Include="..\residue.h" />
+    <ClInclude Include="..\rotamer.h" />
+    <ClInclude Include="..\sample_states.h" />
+    <ClInclude Include="..\smc.h" />
+    <ClInclude Include="..\structure.h" />
+    <ClInclude Include="..\util.h" />
+    <ClInclude Include="..\vdw_utils.h" />
+    <ClInclude Include="..\vla.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\atom.cpp" />
+    <ClCompile Include="..\cluster_exporter.cpp" />
+    <ClCompile Include="..\membrane.cpp" />
+    <ClCompile Include="..\pdb_reader.cpp" />
+    <ClCompile Include="..\vdw_utils.cpp" />
+    <ClCompile Include="..\cal_energy.cpp" />
+    <ClCompile Include="..\collision_grid_prot.cpp" />
+    <ClCompile Include="..\collision_frontend.cpp" />
+    <ClCompile Include="..\config\ConfigFile.cpp" />
+    <ClCompile Include="..\energy_stats.cpp" />
+    <ClCompile Include="..\frag_lib_manager.cpp" />
+    <ClCompile Include="..\grow_one_util.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\matrix.cpp" />
+    <ClCompile Include="..\mutation_manager.cpp" />
+    <ClCompile Include="..\params.cpp" />
+    <ClCompile Include="..\potential.cpp" />
+    <ClCompile Include="..\reprst.cpp" />
+    <ClCompile Include="..\residue.cpp" />
+    <ClCompile Include="..\rotamer.cpp" />
+    <ClCompile Include="..\sample_states.cpp" />
+    <ClCompile Include="..\smc.cpp" />
+    <ClCompile Include="..\structure.cpp" />
+    <ClCompile Include="..\util.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

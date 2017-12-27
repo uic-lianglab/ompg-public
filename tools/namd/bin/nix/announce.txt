@@ -1,0 +1,91 @@
++--------------------------------------------------------------------+
+|                                                                    |
+|                   NAMD 2.11 Release Announcement                   |
+|                                                                    |
++--------------------------------------------------------------------+
+
+                                                    December 22, 2015
+
+The Theoretical and Computational Biophysics Group at the University of
+Illinois is proud to announce the public release of a new version of
+NAMD, a parallel, object-oriented molecular dynamics code designed for
+high-performance simulation of large biomolecular systems.  NAMD is
+distributed free of charge and includes source code.  NAMD development
+is supported by the NIH National Institute of General Medical Sciences.
+
+NAMD 2.11 has many advantages over NAMD 2.10, among these are:
+
+- GPU-accelerated simulations up to twice as fast as NAMD 2.10
+
+- Enhanced Tcl scripting of collective variables and "cv" command
+
+- Collective variables module improvements including to histogram bias
+
+- TclForces query total net forces for atom groups
+
+- Replica-exchange multiplexing (fewer partitions than replicas)
+
+- Tcl scripting multiple in-memory checkpoints
+
+- Improved Tcl scripting multi-copy interface documentation
+
+- Tcl scripting asynchronous multi-copy remote in-memory checkpoints
+
+- Tcl scripting asynchronous multi-copy remote trajectory output
+
+- Tcl scripting asynchronous multi-copy remote script evaluation
+
+- Tcl scripting asynchronous multi-copy central work queue support
+
+- Tcl scripting asynchronous multi-copy workflow-style programming
+
+- Improved minimization for Drude force field and rigid bonds
+
+- Fix long-range LJ correction for systems larger than 11,000 atoms
+
+- Improved long-range LJ correction with VDW force switching
+
+- Improved alchemical calculations with VDW force switching
+
+- Pressure calculation with fixed atoms on GPU works as on CPU
+
+- Improved scaling for GPU-accelerated particle-mesh Ewald calculation
+
+- Improved scaling for GPU-accelerated simulations
+
+- Improved scaling for multi-threaded "smp" builds
+
+- Prevent running smp builds with one thread per process
+
+- Support trajectory files larger than 2GB on Windows
+
+- NVIDIA CUDA GPU-acceleration binaries for Mac OS X
+
+- Improved Intel Xeon Phi coprocessor support
+
+- Update to Charm++ 6.7.0 with improved multi-copy support
+
+- Ignore ioformat statement in CHARMM topology and parameter files
+
+- Psfgen improvements including long resids and insertion codes
+
+- Psfgen package available in NAMD Tcl interpreter
+
+
+Details at http://www.ks.uiuc.edu/Research/namd/2.11/features.html
+
+NAMD is available from http://www.ks.uiuc.edu/Research/namd/
+
+For your convenience, NAMD has been ported to and will be installed
+on the machines at the NSF-sponsored national supercomputing centers.
+If you are planning substantial simulation work of an academic nature
+you should apply for these resources.  Benchmarks for your proposal
+are available at http://www.ks.uiuc.edu/Research/namd/performance.html
+
+The Theoretical and Computational Biophysics Group encourages NAMD users
+to be closely involved in the development process through reporting
+bugs, contributing fixes, periodical surveys and via other means.
+Questions or comments may be directed to namd@ks.uiuc.edu.
+
+We are eager to hear from you, and thank you for using our software!
+
