@@ -93,7 +93,7 @@ do
         # Get absolute path to this library
         csvpath="$csvfulld/$(basename $fraglib)"
         
-        # Run mDisgro converter
+        # Run pretzel converter
         pushd ./
         cd $EXE_DIR
         binpath="$outdir"/"$(basename $fraglib .csv)".bin

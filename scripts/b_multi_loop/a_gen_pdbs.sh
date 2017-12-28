@@ -33,7 +33,7 @@ STAT_DIR=$DATA_DIR/stats/multi_loop
 # Path to executable directory
 EXE_DIR=$ROOT_DIR
 # Name of executable
-EXE_NAME=mDisgro
+EXE_NAME=pretzel
 
 ###################################################
 # Arrays

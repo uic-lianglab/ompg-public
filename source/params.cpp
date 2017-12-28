@@ -7,7 +7,7 @@
 
 void Usage() {
     cout <<
-    "m-DiSGro: program for simulation of protein structures using multi-loop Distance-guided chain-Growth Monte Carlo method." <<
+    "Pretzel: program for simulation of protein structures using multi-loop Distance-guided chain-Growth Monte Carlo method." <<
     endl;
     cout << "options:\n";
     cout << "\t-f:\t input coordinate file of the protein" << endl;
@@ -20,10 +20,10 @@ void Usage() {
     cout << "\t-multiloops:\t The file recording the start and end residues of multiple loops." << endl;
     cout << "\t" << endl;
     cout <<
-    "Fragments generation example:\t ./mdisgro -f MultiLoop/1UTK_36.pdb -n 10000 -nds 32 -start xx -end xx -eval -confkeep 1000 -pdbout 100" <<
+    "Fragments generation example:\n\t./pretzel -f MultiLoop/1UTK_36.pdb -n 10000 -nds 32 -start xx -end xx -eval -confkeep 1000 -pdbout 100" <<
     endl;
     cout <<
-    "Multi-loop example:\t ./mdisgro -f MultiLoop/1UTK_36.pdb -n 10000 -nds 32 -multiloops MultiLoop/1UTK_36_mulist -confkeep 500 -nscc 20 -multilooplib pdb_output -pdbout 20" <<
+    "Multi-loop example:\n\t./pretzel -f MultiLoop/1UTK_36.pdb -n 10000 -nds 32 -multiloops MultiLoop/1UTK_36_mulist -confkeep 500 -nscc 20 -multilooplib pdb_output -pdbout 20" <<
     endl;
     cout << "\t \n";
     cout << "\t \n";

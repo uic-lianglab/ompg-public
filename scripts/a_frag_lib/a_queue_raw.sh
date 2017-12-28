@@ -22,7 +22,7 @@ BASE_FRAG_LIB_STATS_DIR=$BASE_STATS_DIR/frag_libs
 BASE_LOG_DIR=$DATA_DIR/logs
 BASE_FRAG_LIB_LOG_DIR=$BASE_LOG_DIR/frag_libs/a_raw_libs
 # Executable name and directory
-EXE_NAME=mDisgro
+EXE_NAME=pretzel
 EXE_DIR=$ROOT_DIR
 # Base directory containing template pdbs
 TEMPLATE_DIR=$DATA_DIR/templates

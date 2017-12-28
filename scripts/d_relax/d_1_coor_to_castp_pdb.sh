@@ -21,7 +21,7 @@ BASE_MIN_DIR=$BASE_PARENT_DIR/min
 # Name of subdirectory with minimized coordinate files
 MIN_PDB_DIR_NAME=fixed_post
 
-# Path to base directoy for mDisgro multiloop samples. These files are in PDB
+# Path to base directoy for pretzel multiloop samples. These files are in PDB
 # format and not NAMD format; therefore, they can serve as a template for
 # converting from one format to the other
 BASE_LOOP_DIR=$BASE_OUTPUT_DIR/multi_loop

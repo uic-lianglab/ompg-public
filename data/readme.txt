@@ -1,6 +1,6 @@
-Distance-guided Sequential chain-Growth Monte Carlo(DiSGro)
+Pretzel uses Distance-guided Sequential chain-Growth Monte Carlo(DiSGro)
 
-Files required for running DiSGro. 
+Files required for running Pretzel. 
 
 atomProp2.txt:                atom and residue information e.g. atom type.
 BBT_phi_psi_pair_NEW.txt:     joint probability of phi and psi torsion angles.
@@ -15,4 +15,6 @@ SCT_PF.txt:                   side-chain torsions distribution. For calculating 
                               derived from the PDB database.
 
 Contact
-jliang@uic.edu
+
+perezratATuicDOTedu
+jliangATuicDOTedu

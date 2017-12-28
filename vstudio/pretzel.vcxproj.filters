@@ -21,177 +21,177 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\atom.h">
+    <ClInclude Include="..\source\atom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\cal_energy.h">
+    <ClInclude Include="..\source\cal_energy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\collision_grid.h">
+    <ClInclude Include="..\source\collision_grid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\frag_lib_manager.h">
+    <ClInclude Include="..\source\frag_lib_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\matrix.h">
+    <ClInclude Include="..\source\matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\mutation_manager.h">
+    <ClInclude Include="..\source\mutation_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\params.h">
+    <ClInclude Include="..\source\params.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\potential.h">
+    <ClInclude Include="..\source\potential.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\reprst.h">
+    <ClInclude Include="..\source\reprst.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\residue.h">
+    <ClInclude Include="..\source\residue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\rotamer.h">
+    <ClInclude Include="..\source\rotamer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\sample_states.h">
+    <ClInclude Include="..\source\sample_states.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\smc.h">
+    <ClInclude Include="..\source\smc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\structure.h">
+    <ClInclude Include="..\source\structure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\util.h">
+    <ClInclude Include="..\source\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\config\ConfigFile.h">
+    <ClInclude Include="..\source\config\ConfigFile.h">
       <Filter>Header Files\external</Filter>
     </ClInclude>
-    <ClInclude Include="..\loop_closure_c\sturm.h">
+    <ClInclude Include="..\source\loop_closure_c\sturm.h">
       <Filter>Header Files\external</Filter>
     </ClInclude>
-    <ClInclude Include="..\loop_closure_c\tripep_closure.h">
+    <ClInclude Include="..\source\loop_closure_c\tripep_closure.h">
       <Filter>Header Files\external</Filter>
     </ClInclude>
-    <ClInclude Include="..\vla.h">
+    <ClInclude Include="..\source\vla.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\potential_frontend_loodis.h">
+    <ClInclude Include="..\source\potential_frontend_loodis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\energy_stats.h">
+    <ClInclude Include="..\source\energy_stats.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\energy_stats_writer.h">
+    <ClInclude Include="..\source\energy_stats_writer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\collision_frontend.h">
+    <ClInclude Include="..\source\collision_frontend.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\build.h">
+    <ClInclude Include="..\source\build.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\vdw_utils.h">
+    <ClInclude Include="..\source\vdw_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\collision_logger.h">
+    <ClInclude Include="..\source\collision_logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\membrane.h">
+    <ClInclude Include="..\source\membrane.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\collision_grid_prot.h">
+    <ClInclude Include="..\source\collision_grid_prot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\point.h">
+    <ClInclude Include="..\source\point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\misc_structs.h">
+    <ClInclude Include="..\source\misc_structs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\dirent_win.h">
+    <ClInclude Include="..\source\dirent_win.h">
       <Filter>Header Files\external</Filter>
     </ClInclude>
-    <ClInclude Include="..\dirent_xplat.h">
+    <ClInclude Include="..\source\dirent_xplat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\pdb_reader.h">
+    <ClInclude Include="..\source\pdb_reader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\atom.cpp">
+    <ClCompile Include="..\source\atom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\cal_energy.cpp">
+    <ClCompile Include="..\source\cal_energy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\frag_lib_manager.cpp">
+    <ClCompile Include="..\source\frag_lib_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\grow_one_util.cpp">
+    <ClCompile Include="..\source\grow_one_util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\main.cpp">
+    <ClCompile Include="..\source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\matrix.cpp">
+    <ClCompile Include="..\source\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\mutation_manager.cpp">
+    <ClCompile Include="..\source\mutation_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\params.cpp">
+    <ClCompile Include="..\source\params.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\potential.cpp">
+    <ClCompile Include="..\source\potential.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\reprst.cpp">
+    <ClCompile Include="..\source\reprst.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\residue.cpp">
+    <ClCompile Include="..\source\residue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\rotamer.cpp">
+    <ClCompile Include="..\source\rotamer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\sample_states.cpp">
+    <ClCompile Include="..\source\sample_states.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\smc.cpp">
+    <ClCompile Include="..\source\smc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\structure.cpp">
+    <ClCompile Include="..\source\structure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\util.cpp">
+    <ClCompile Include="..\source\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\config\ConfigFile.cpp">
+    <ClCompile Include="..\source\config\ConfigFile.cpp">
       <Filter>Source Files\external</Filter>
     </ClCompile>
-    <ClCompile Include="..\energy_stats.cpp">
+    <ClCompile Include="..\source\energy_stats.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\collision_frontend.cpp">
+    <ClCompile Include="..\source\collision_frontend.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\vdw_utils.cpp">
+    <ClCompile Include="..\source\vdw_utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\collision_grid_prot.cpp">
+    <ClCompile Include="..\source\collision_grid_prot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\membrane.cpp">
+    <ClCompile Include="..\source\membrane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\cluster_exporter.cpp">
+    <ClCompile Include="..\source\cluster_exporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\pdb_reader.cpp">
+    <ClCompile Include="..\source\pdb_reader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

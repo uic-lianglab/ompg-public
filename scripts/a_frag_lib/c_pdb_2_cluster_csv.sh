@@ -12,7 +12,7 @@ BASE_FRAG_LIB_PDB_INPUT_DIR=$BASE_PDB_OUTPUT_DIR/frag_libs/b_cat_libs
 BASE_FRAG_LIB_PDB_OUTPUT_DIR=$BASE_PDB_OUTPUT_DIR/frag_libs/c_csv_libs
 
 EXE_DIR=$ROOT_DIR
-EXE_NAME=mDisgro
+EXE_NAME=pretzel
 
 ###################################################
 # Completed data sets to ignore
@@ -94,7 +94,7 @@ do
         # Get absolute path to this library
         pdbpath="$pdbfulld/$(basename $fraglib)"
         
-        # Run mDisgro converter
+        # Run pretzel converter
         pushd ./
         cd $EXE_DIR
         csvpath="$outdir"/"$(basename $fraglib .pdb)".coords.csv
