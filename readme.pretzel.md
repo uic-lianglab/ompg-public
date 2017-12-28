@@ -43,5 +43,5 @@ Input files must be in the PDB format.
 
 ### Contact
 
-perezratATuicDOTedu
-jliangATuicDOTedu
+* perezratATuicDOTedu
+* jliangATuicDOTedu
