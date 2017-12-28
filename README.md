@@ -27,7 +27,7 @@ followed by
 ./cmake_build.sh.
 ```
 
-The mDisgro executable binary will be located in the CMakeBuild folder.
+The pretzel executable binary will be located in the CMakeBuild folder.
 
 ### Windows
 
@@ -43,11 +43,11 @@ Proteins are modeled in 4 sequential stages
 3. Multi-loop clustering
 4. Relaxation and topological gating state assignment
 
-All scripts assume the compiled mDisgro executable binary has been copied to the base project directory!
+All scripts assume the compiled pretzel executable binary has been copied to the base project directory!
 
 ### Fragment library generation
 
-Prior to multi-loop modeling, all single loops must have their fragment libraries generated using mDisgro.
+Prior to multi-loop modeling, all single loops must have their fragment libraries generated using pretzel.
 
 For scripts demonstrating fragment library generation as used in JACS paper, please see [scripts/a_frag_lib](scripts/a_frag_lib).
 
@@ -55,13 +55,13 @@ All scripts are prefixed in the order in which they should be run.
 
 ### Multi-loop generation
 
-Once fragment libraries are available, all loops structures may be simultaneously modeled using mDisgro.
+Once fragment libraries are available, all loops structures may be simultaneously modeled using pretzel.
 
 For scripts demonstrating full multi-loop modeling, please see [scripts/b_multi_loop](scripts/b_multi_loop).
 
 ### Multi-loop clustering
 
-To approximate uniform coverage over the geometric space of loops, mDisgro sampling bias must be removed.
+To approximate uniform coverage over the geometric space of loops, pretzel sampling bias must be removed.
 
 This is currently done by clustering the multi-loop samples using a streaming affinity propagation algorithm.
 
