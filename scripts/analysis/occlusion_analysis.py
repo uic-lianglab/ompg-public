@@ -29,7 +29,7 @@ from scipy import misc
 from scipy.spatial import distance
 
 ###########################################
-#Globals
+# Globals
 ###########################################
 
 # Path containing this script
