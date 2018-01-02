@@ -13,9 +13,9 @@ This code is available from the following git repositories:
 
 ## Compiling
 
-### Unix
+### Linux
 
-In Unix, navigate to the *scripts* folder and run
+In Linux, navigate to the *scripts* folder and run
 
 ```
 ./cmake_init.sh
